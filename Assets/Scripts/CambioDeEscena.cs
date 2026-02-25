@@ -1,19 +1,19 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class CambioAutomatico : MonoBehaviour
+public class CambioDeEscena : MonoBehaviour
 {
     public float tiempoEspera = 5f; 
-    public string nombreEscena = "Escena1"; 
+    public int indiceEscena = 1; 
 
     void Start()
     {
-        StartCoroutine(CambiarEscenaDespuesDeTiempo());
+        StartCoroutine(CambioDeEscenaCoroutine());
     }
 
-    private System.Collections.IEnumerator CambiarEscenaDespuesDeTiempo()
+    private System.Collections.IEnumerator CambioDeEscenaCoroutine()
     {
         yield return new WaitForSeconds(tiempoEspera);
-        SceneManager.LoadScene(nombreEscena);
+        SceneManager.LoadScene(indiceEscena);
     }
 }

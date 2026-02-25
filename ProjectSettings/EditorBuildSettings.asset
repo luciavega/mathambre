@@ -6,8 +6,26 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/01_Intro.unity
+    guid: ed754e8469c5fe54aafc603984f19ffd
+  - enabled: 1
     path: Assets/Scenes/02_Pasilllo.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/03_Secretario.unity
+    guid: f93bfcbbefe2a744a89b2086b6b76a2c
+  - enabled: 1
+    path: Assets/Scenes/04_Area de trabajo.unity
+    guid: 2326e5e57a5a5144592007c2fdb5feb8
+  - enabled: 1
+    path: Assets/Scenes/05_Drako.unity
+    guid: 7d856831dd726ef40a615af40c8d4500
+  - enabled: 1
+    path: Assets/Scenes/06_incinerador.unity
+    guid: 1a592bc8d5c04594d9fae85229f18a06
+  - enabled: 1
+    path: Assets/Scenes/07_Deposito.unity
+    guid: f9911f8449392b74a9dfa91793cc9cdd
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
